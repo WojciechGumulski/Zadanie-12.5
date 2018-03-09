@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	background-color: lightgreen;
+}
+
+main {
+	text-align: center;
+	font-family: "Roboto";
+}
+
+header {
+	margin-top: 50px;
+}
+
+.quote {
+	font-style: italic; 
+}
+
+.author {
+	font-size: 15px;
+}
+
+.trigger {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.trigger:hover {
+	background-color: white;
+	font-weight: bold;
+}
+
+.tweet {
+	color: #0084b4;
+	font-size: 25px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.tweet:hover {
+	color: #1dcaff;
+}
